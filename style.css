@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{ 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+} 
+.header{ 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 11px; 
+    background: #F5F5F6; 
+    padding: 20px 100px; 
+} 
+ .image{ 
+    object-fit: cover; 
+    align-items: center; 
+    display: flex; 
+} 
+ .header ul li{ 
+    list-style: none; 
+    margin: 0 10px; 
+    line-height: 13px; 
+    letter-spacing: 0.06em;
+    color: #959BA4; 
+} 
+.header ul{ 
+    display: flex; 
+    align-items: center; 
+} 
+p{ 
+    display: flex; 
+    align-items: center; 
+    background: #FFFFFF; 
+    padding: 7px; 
+    border-radius: 4px; 
+} 
+.sag{
+    margin-top: 13px;
+}
+h1{ 
+    width: 1000px; 
+    margin: 80px auto; 
+    display: flex; 
+    font-size: 36px; 
+    line-height: 42px;
+    margin-left: 31rem; 
+} 
+.bank-calc{ 
+    width: 1000px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    font-weight: 400; 
+    font-size: 15px; 
+    color: #8d8888; 
+} 
+.buying-azn{ 
+    margin-right: 100px; 
+} 
+.buying-azn ul,.selling-azn ul{ 
+    display: flex; 
+    box-sizing: border-box; 
+} 
+.buying h5,.selling h5{ 
+    margin-bottom: 10px; 
+} 
+.buying-azn ul li,.selling-azn ul li{ 
+    list-style: none; 
+    border: 1px solid black; 
+    padding: 5px 16px; 
+} 
+.calc{ 
+    width: 259px;
+    height: 102px;
+    left: 253px;
+    top: 250px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+}
+.valyuta{
+    background-color:#833AE0;
+    color:  white;
+}
+input{
+    border: none;
+    width: 240px;
+    height: 38px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    margin-top: 11px;
+}
+.deyer{
+color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+}
+input:focus{
+    outline: none;
+}
